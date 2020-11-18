@@ -126,6 +126,32 @@ class BaseDatos{
 
     }
 
+    public function ingresarUsuario($consultaSQL){
+
+    //establecer una conexion
+    $conexionBD=$this->conectarBD();
+
+    //preparar consulta
+    $ingresarUsuario = $conexionBD->prepare($consultaSQL);
+
+    //ejecutar consulta
+    $resultado = $ingresarUsuario->execute();
+
+    //verificar resultado
+    if($resultado){
+
+        echo 'Bienvenido Administrador';
+
+      }else{
+
+        echo 'error';
+      }
+
+
+
+
+    }
+
 
     
      

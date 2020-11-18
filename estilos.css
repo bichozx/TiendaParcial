@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.fondo{
+    background-color:664667 ;
+}
+
+.fondobody{
+
+    background-image: url(fotoarmonia/tituloapp.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+     
+}
+
+
+

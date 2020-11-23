@@ -14,31 +14,55 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
     <title>Enarmonia</title>
-
 </head>
 
-<body class="container fondointro">
-   
-
+<body class="container fondobody">
     <header>
-        <!-- As a link -->
+      <!-- Just an image -->
         <nav class="navbar navbar-light bg-transparent">
-            <a class="navbar-brand" href="#"><img src="fotoarmonia/nombrelogo.png" width="100" height="70" alt=""
-                    loading="lazy"></a>
-            <a class="btn btn-fondo btn-outline-dark btn-lg" href="loguinusuario.php">Ingresar</a>
-            <a class="btn btn-fondo btn-outline-dark btn-lg" href="ingresarUsuario.php">Suscribirse</a>
-            
-
-
+            <a class=" col-auto ml-5 btn btn-fondo btn-outline-dark navbar-brand" href="loguinusuario.php">
+            <img src="fotoarmonia/logoarmonia3.jpg" width="30" height="30" alt="" loading="lazy"> Ingresar </a>
         </nav>
-
-        <!-- As a heading -->
-
+        
     </header>
-    <main>
-        <section>
+    
+        <section class="formato">
+            <form class="needs-validation mt-5" action="registrarUsuario.php" method="POST">
+                <div class="form-group-row">
+                    <div class="col-lg-6 mb-3 ml-5">
+                        <label for="validationServer01">NOMBRE</label>
+                        <input type="text" class="form-control" id="nombreusuario"  name="nombreusuario1" value="" required>
+                        
+                    </div>
+                </div>
+                <div class="form-group-row">
+                    <div class="col-lg-6 mb-3 ml-5 ">
+                        <label for="validationTooltip02">APELLIDO</label>
+                        <input type="text" class="form-control" id="apellidousuario" name="apellidousuario1" value="" required>
+                        
+                    </div>
+
+
+                </div>
+                <div class="form-group-row ">
+                    <div class="col-lg-6 mb-3 ml-5">
+                        <label for="validationTooltip02">PASSWORD</label>
+                        <input type="password" class="form-control" id="passwordusuario" name="passwordusuario1" value="" required>
+                        
+                    </div>
+
+
+                </div>
+
+
+
+
+                <button class="col-auto ml-5 btn btn-fondo btn-outline-dark" id="ingresarusuario" name="ingresarusuariio1" type="submit">Registar</button>
+            </form>
         </section>
-    </main>
+    
+
+
 
 
 

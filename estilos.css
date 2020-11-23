@@ -23,8 +23,28 @@ body{
 
 .formato{
     align-items: center;
-    margin-top: 200px;
+    margin-left: 200px;
+    
+    
+    
 }
+
+.fondointro{
+    background-image: url(fotoarmonia/arminia.jpg);
+    background-position: top;
+    background-repeat:no-repeat;
+    background-size: 80%;
+    
+}
+
+.boton{
+
+    margin-left: 10px;
+}
+
+
+
+
 
 
 

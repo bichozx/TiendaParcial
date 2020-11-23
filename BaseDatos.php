@@ -140,16 +140,12 @@ class BaseDatos{
     //verificar resultado
     if($resultado){
 
-        echo 'Bienvenido Administrador';
+        echo 'Bienvenido';
 
       }else{
 
         echo 'error';
       }
-
-
-
-
     }
 
 

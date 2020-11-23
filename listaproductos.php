@@ -34,17 +34,18 @@
    //print_r($productos);
    
    ?>
-    <main>
+    
         <header class="">
             <!-- Just an image -->
             <nav class="navbar navbar-light bg-transparent col-12">
-                <a class="navbar-brand btn btn-fondo btn-outline-dark btn-lg" href="index.php">
+                <a class="navbar-brand btn btn-fondo btn-outline-dark btn-lg" href="ingresoproducto.php">
                     <img src="fotoarmonia/logoarmonia3.jpg" width="30" height="30" alt="" loading="lazy"> Regresar a registro
 
 
                 </a>
             </nav>
         </header>
+    <main>
         <div class="mt-5 container">
             <div class="row row-cols-1 row-cols-md-2">
                 <?php foreach($productos as $producto):?>

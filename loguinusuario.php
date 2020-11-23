@@ -14,40 +14,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
     <title>Enarmonia</title>
-
 </head>
 
-<body class="container fondointro">
-   
 
+
+
+
+
+
+<body class="container fondobody">
     <header>
-        <!-- As a link -->
+
         <nav class="navbar navbar-light bg-transparent">
-            <a class="navbar-brand" href="#"><img src="fotoarmonia/nombrelogo.png" width="100" height="70" alt=""
-                    loading="lazy"></a>
-            <a class="btn btn-fondo btn-outline-dark btn-lg" href="loguinusuario.php">Ingresar</a>
-            <a class="btn btn-fondo btn-outline-dark btn-lg" href="ingresarUsuario.php">Suscribirse</a>
-            
-
-
+            <a class="col-auto ml-5 btn btn-fondo btn-outline-dark navbar-brand" href="ingresarUsuario.php">
+                <img src="fotoarmonia/logoarmonia3.jpg" width="30" height="30" alt="" loading="lazy"> Registrarse <a/>
         </nav>
 
-        <!-- As a heading -->
-
     </header>
-    <main>
-        <section>
-        </section>
-    </main>
+    <section class="formato">
+        
+        <form class="needs-validation mt-5" action="loguin.php" method="POST">
+            <div class="form-group col-lg-7 mb-3 ml-5 ">
+                <label for="exampleInputEmail1 validationTooltip01">Nombre</label>
+                <input type="text" class="form-control" id="nombreloguin" name="nombreloguin" required>
+
+            </div>
+            <div class="form-group col-lg-7 mb-3 ml-5">
+                <label for="exampleInputPassword1 validationTooltip02">Password</label>
+                <input type="password" class="form-control" id="passwordloguin" name="passwordloguin" required>
+            </div>
+
+            <button type="submit" class="col-auto ml-5 btn btn-fondo btn-outline-dark">Ingresar</button>
+        </form>
 
 
+    </section>
 
-
-
-
-
-
-
+    
 
 
 
@@ -80,3 +83,13 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
